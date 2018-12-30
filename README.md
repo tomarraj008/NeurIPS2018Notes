@@ -3,7 +3,7 @@
 [YJ Choe](https://yjchoe.github.io/)
 
 Below are my mostly unedited notes from NeurIPS 2018. 
-Also check out [**my top 10 picks from the conference**](https://yjchoe.github.io/blog/distillation/2018/12/31/my-top-10-picks-from-neurips-2018.html)!
+Also check out [**my top 10 picks from the conference**](https://yjchoe.github.io/blog/distillation/2018/12/31/my-top-10-picks-from-neurips-2018.html).
 
 ---
 
@@ -440,8 +440,6 @@ Invited Talk.
 
 ---
 
----
-
 ## GILBO: One Metric to Measure Them All
 
 *Wed Dec 5th 03:45 -- 03:50 PM @ Room 220 E*
@@ -548,8 +546,6 @@ Invited Talk.
 ## BigBlueBot: A Demonstration of How to Detect Egregious Conversations with Chatbots (Demo)
 
 IBM Research AI.
-
----
 
 ---
 
@@ -790,8 +786,6 @@ Presented by Elad Hoffer
     - Bilevel learning of the Group Lasso structure
     - Sparse PCA from Sparse Linear Regression
     - When do random forests fail?
-
----
 
 ---
 
