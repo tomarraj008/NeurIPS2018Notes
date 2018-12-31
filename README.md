@@ -96,7 +96,7 @@ Bottou & Bousquet*, NIPS 2007
         - Competitive performance on classification tasks.
         - (Use as a pre-trained language model?) Would be computationally intensive.
     - **Dendritic cortical microcircuits approximate the backpropagation algorithm**
-        - Bioplausible algorithms... NOT replacing but supporting backprop!
+        - Bioplausible algorithms... NOT replacing but supporting backprop
         - “Pyramidal neuron learning”
     - **DeepPINK: reproducible feature selection in deep neural networks**
         - A deep learning version of knockoff FDR control.
@@ -108,7 +108,7 @@ Bottou & Bousquet*, NIPS 2007
         - Could make sense with visual storytelling, among other things.
         - (Would BERT-style all-to-all decoding work?) Doubtful.
     - **Complex Gated Recurrent Neural Networks**
-        - Complex-valued RNN cells can be made!
+        - Complex-valued RNN cells can be made.
         - Application to human motion prediction.
         - Speech, text, ... all future work.
     - **Expanding Holographic Embeddings for Knowledge Completion**
@@ -190,23 +190,23 @@ Invited Talk.
 
 *Tue Dec 4th 03:50 — 04:05 PM @ Room 220 E*
 
-One of the Best Papers!
+One of the Best Papers
 
 - Intimate connection between neural networks and ordinary differential equations.
     - A modification of ResNet leads to an ODE operation!
     - **ODENet**: improvement over the modification coming from an efficient ODE solver.
 - A drop-in replacement for ResNets
     - Achieves the same performance as ResNets
-- Don’t have a fixed number of layers: the depth is automatically set by the ODE solver!
+- Don’t have a fixed number of layers: the depth is automatically set by the ODE solver.
     - 2-4x depth from ResNet
     - Downside: we can’t control the time cost during training. (Can control in test time, though)
 - Explicit error control based on the ODE solver’s tolerance.
 - Can extend to continuous-time models.
-    - Much improved performance on synthetic data than RNNs!
+    - Much improved performance on synthetic data than RNNs.
 - Best application: density estimation.
     - Instantaneous change of variables: requires trace instead of determinant
     - Leads to: **continuous normalizing flows**
-    - Allows continuous transformation of a Gaussian into the desired density (e.g. images)!
+    - Allows continuous transformation of a Gaussian into the desired density (e.g. images).
 
 ## Bias and Generalization in Deep Generative Models: An Empirical Study
 
@@ -218,7 +218,7 @@ One of the Best Papers!
     - If given 2/4 objects, model generates 1~6 object images, but the mode is 3 (cf. psychology)
 - Multiple features: colors, shapes, ...
     - Few number of features: model memorizes.
-    - Many number of features seen: can generalizes. (Sharp threshold!)
+    - Many number of features seen: can generalizes. (Sharp threshold)
 - Similar behaviors, regardless of the model choice.
 
 ## Robustness of conditional GANs to noisy labels
@@ -260,7 +260,7 @@ One of the Best Papers!
 *Tue Dec 4th 04:45 -- 04:50 PM @ Room 517 CD*
 
 - Define a kernel between neural networks.
-- Apply Bayesian optimization → Neural Architecture Search!
+- Apply Bayesian optimization → Neural Architecture Search
 - NASBOT: Bayesian optimization, optimal transport, and evolutionary algorithms.
 
 ## Supervised Unsupervised Learning
@@ -336,12 +336,12 @@ Invited Talk.
     - Myth or Fact? RL is the only case of ML where it is acceptable to test on your training set.
         - There is an immense gap between performance in simulated environments (e.g. MuJoCo) and in the real world. There are several steps in the middle:
             - Separating the training and testing set is still a challenge in RL.
-            - Even separating the randomj seed between training and testing (and, of course, using sufficiently many random trials) helps! Not all hope is lost. (Note: 5 instead of 1 seed would help within the simulator, but for the real-world you may need 100 seeds.)
+            - Even separating the randomj seed between training and testing (and, of course, using sufficiently many random trials) helps. Not all hope is lost. (Note: 5 instead of 1 seed would help within the simulator, but for the real-world you may need 100 seeds.)
             - Natural world is so much more complex, so one may want to incorporate photorealistic videos within the simulators (at the very least) as natural noise.
 - Conclusions
     - Science is a **collective, not competitive,** process.
     - Check out the reproducibility checklist.
-    - Check out the ICLR Reproducibility Challenge. (80% of the authors appreciate it and make the changes!)
+    - Check out the ICLR Reproducibility Challenge. (80% of the authors appreciate it and make the changes.)
 
 ---
 
@@ -468,14 +468,14 @@ Invited Talk.
 
 *Wed Dec 5th 04:40 -- 04:45 PM @ Room 220 E*
 
-- A smooth characterization of the DAG constraint is available!
+- A smooth characterization of the DAG constraint is available
 - Implementable within ~50 lines with existing solvers.
-- Allows a smooth, efficient & no-tears methods for structure learning!
+- Allows a smooth, efficient & no-tears methods for structure learning
 
 ## GPyTorch: Blackbox Matrix-Matrix Gaussian Process Inference with GPU Acceleration
 
 - [https://gpytorch.ai/](https://gpytorch.ai/)
-- Much faster Gaussian Process (GP) learning that exploits GPU acceleration!
+- Much faster Gaussian Process (GP) learning that exploits GPU acceleration.
 - Entirely modular based on PyTorch.
 
 ---
@@ -572,14 +572,14 @@ Invited Talk.
 - Explaining Uncertainty
     - You need to acknowledge that your predictions may be uncertain, i.e. “we don’t know!”
     - BUT: if you keep telling the general public that “we don’t know”, they don’t trust you!
-    - **“Confident uncertainty” (“muscular uncertainty — we don’t know!”) does not reduce trust in the source.**
+    - **“Confident uncertainty” (“muscular uncertainty — confidently saying we don’t know”) does not reduce trust in the source.**
 - Fairness
     - Example: “What is your heart age?” Lung age, brain age, etc.
         - Phase 3: people who knew their heart age improved their behavior.
-        - Colleagues (a group of middle-aged white men): Didn’t care / got annoyed! Why?
+        - Colleagues (a group of middle-aged white men): Didn’t care / got annoyed. Why?
             - Nearly everyone had their heart age greater then their actual age.
-            - But they don’t wanna do exercise!
-        - ...but Spiegelhalter's group were the ones who did it! Based on a rigorous statistical analysis on 2.3 million people.
+            - But they're fit... they exercise!
+        - ...but Spiegelhalter's group were the ones behind the whole thing. Based on a rigorous statistical analysis on 2.3 million people (need to add the "exercise" feature though)
 
 ---
 
@@ -587,7 +587,7 @@ Invited Talk.
 
 *Thu Dec 6th 09:45 -- 09:50 AM @ Room 220 CD*
 
-- Combines SGD with random features (last year’s Test of Time Award recipient!) to provide:
+- Combines SGD with random features (last year’s Test of Time Award recipient) to provide:
     - Optimal accuracy
     - Minimum computation
 
@@ -598,7 +598,7 @@ Invited Talk.
 - Inference as an iterative procedure
 - Residual ELBO (RELBO): ELBO + Residuals
     - The next component should be a good approximation of theposterior
-    - But should be different from our current approximation!
+    - But should be different from our current approximation
 
 ## Implicit Reparameterization Gradients
 
@@ -608,7 +608,7 @@ Mikhail Figurnov, Shakir Mohamed, and Andriy Minh
 
 - Explicit vs. Implicit Reparametrization
     - Explicit requires the gradient of the inverse CDF, while implicit requires the gradient of the CDF itself.
-    - Implicit allows to decouple sampling from gradient estimation!
+    - Implicit allows to decouple sampling from gradient estimation
     - Implemented in TF library.
     - Experiments 2d-latent VAE on MNIST & LDA.
 - **Move away from making modeling choices for computational convenience!**
@@ -621,7 +621,7 @@ Mikhail Figurnov, Shakir Mohamed, and Andriy Minh
 - Gives a very-easy-to-implement alternative based on the tail-adaptive f-divergence.
 - Moving beyond KL divergences
     - Alpha-divergence generalizes KL and promotes *mass-covering* (if alpha is large).
-    - Unfortunately, large alpha causes large variance or even infinite mean!
+    - Unfortunately, large alpha causes large variance or even infinite mean.
 - Taming the Fat Tail
     - Instead of alpha, estimate the tail probability and use that.
     - This leads to the use of f-divergence, which generalizes alpha-divergence.
@@ -660,8 +660,8 @@ Mikhail Figurnov, Shakir Mohamed, and Andriy Minh
 - Given an incomplete network, predict whether an edge should be connected.
 - Popular heuristic ones exist: common neighbors, preferential attachment, ...
 - SEAL framework
-    - Can learn all first-order and second-order heuristics automatically!
-    - High-order heuristics can also be learned (provably) with a small subgraph!
+    - Can learn all first-order and second-order heuristics automatically
+    - High-order heuristics can also be learned (provably) with a small subgraph
 
 ## Realistic Evaluation of Deep Semi-Supervised Learning Algorithms
 
@@ -763,7 +763,7 @@ Presented by Elad Hoffer
 
 - Noteworthy
     - **Learning Beam Search Policies via Imitation Learning**
-        - Beam search is universally used, but it is *not* a trained procedure (i.e. unused during training)!
+        - Beam search is universally used, but it is *not* a trained procedure (i.e. unused during training).
         - Presents a meta-algorithm using imitation learning that learns beam search trajectories during training.
     - **Learning to Multitask**
         - Presents a framework for systematically performing multitask learning.
@@ -798,11 +798,11 @@ Presented by Elad Hoffer
 ## Competition Track: **The Conversational Intelligence Challenge 2 (ConvAI2)**
 
 - Includes winning presentation from Hugging Face on the persona-based conversation challenge.
-- **Lost in Conversation: Human Evaluation Winner!**
+- **Lost in Conversation: Human Evaluation Winner**
     - Learn NLG using OpenAI GPT
     - Persona-enhanced multi-head attention
     - *4/4 Human evaluation score!*
-- **Hugging Face: Perplexity Winner!**
+- **Hugging Face: Perplexity Winner**
     - Learn NLG using OpenAI GPT (best model at the time)
     - Concatenate persona, previous utterance, other person’s utterance — with three separate “dialog state” embeddings!
     - Multi-tasking with the LM loss and an adversarial training loss.
@@ -817,9 +817,9 @@ Presented by Elad Hoffer
     - Rule-based (“Constrained”) decoding to prevent repetitions.
         - Paraphrases are a real deal! Repetitions of non-stopwords are tough to detect.
 - Conclusions & Discussion (by Jason Weston)
-    - Pre-trained generative Transformers work well!
-    - But not just about perplexity — search strategy important too!
-    - Automated metrics (PPL, F1) are NOT enough for multi-turn dialog!
+    - Pre-trained generative Transformers work well.
+    - But not just about perplexity — search strategy important too.
+    - Automated metrics (PPL, F1) are NOT enough for multi-turn dialog.
     - DialogueNLI (Welleck et al. 2018) could be an interesting solution.
     - Wizard of Wikipedia (Dinan et al. 2018): Another task, with more topic depth
         - Contrasts with PersonaChat, which is just a meet-and-greet task.
@@ -870,7 +870,7 @@ Presented by Elad Hoffer
     - Experiment: sequential social dilemmas
         - Games in which agents *need* to communicate to get apples (otherwise they will get none).
         - Give agents intrinsic motivation to communicate *in order to make a causal influence on (i.e. change the behavior of) the other agents!*
-        - Don’t need to observe the other agents’ reward!
+        - Don’t need to observe the other agents’ reward.
     - Coming up with an environment where agents have to communicate while being not cooperative.
 
 - (Question) Deception?
@@ -905,7 +905,7 @@ A cognitive scientist’s view.
     - 6 sub-types of containment: loose (full, partial), tight (full, partial), interlock, embed
     - 5 sub-types of support: gravitation (“Core” usage), adhesion, embed, hanging, point attachment
     - Experiment with humans: make humans describe an image (“canonical exemplars”) from one of the sub-types. See how they describe it.
-        - Adults and four-year-olds have the same usage patterns across these sub-types!
+        - Adults and four-year-olds have the same usage patterns across these sub-types.
         - Lexical (non-BE) verbs (“lying in” instead of “is in”): four-year-olds don’t use them, for adults the patterns are still similar.
         - Also similar patterns in different languages.
         - Conclusion: **Core usage is significantly more common.**
@@ -917,7 +917,7 @@ A cognitive scientist’s view.
 - Amending the proposal: What, where, and how
     - Location is expressed through spatial adpositions (where) that define location of figures and grounds (what).
     - BUT: the *how* part expressed by lexical verbs also matters.
-- Note from second language learners: Tremendous difficulty *outside* the Core usages!
+- Note from second language learners: Tremendous difficulty *outside* the Core usages.
     - Women in canoe, people on flight, crack in road, yellow line on the road, ...
     - These would have to be learned by “reading the book” (i.e. distributional patterns), but they’re not the Core.
 - Conclusions: Rethinking the Problem
@@ -929,7 +929,7 @@ A cognitive scientist’s view.
 
 ## Visually Grounded Interaction and Language: Invited Talk by Chris Manning
 
-- **VQA benchmarks are problematic!**
+- **VQA benchmarks are problematic:**
     - Not representative of visual language understanding (inconsistency, ungroundedness, no compositionality, no reasoning, ...)
     - Datasets are limited: artificial images, small space of possible objects and attributes, memorizable.
 - **The GQA dataset**
@@ -939,7 +939,7 @@ A cognitive scientist’s view.
     - Unbiasing of the dataset while keeping the general trend (softening the dataset).
     - Questions are perhaps less human-like, but usually more objective (if reasoning can be done).
 - **MAC (Memory, Attention, and Composition) Networks**
-    - Decomposes a problem into a sequence of explicit reasoning steps!
+    - Decomposes a problem into a sequence of explicit reasoning steps.
         - Control state: reasoning operation as attention-based average of a query
         - Memory: retrieved information as attention-based average of the knowledge base (image)
     - The MAC network is a sequence of the 2-component MAC cells
@@ -952,10 +952,10 @@ A cognitive scientist’s view.
     - (Biased view) The SQuAD dataset isn’t perfect, but it has been the definitive task during 2016-2018.
         - Manning initially opposed the idea of Turkers generating questions *knowing* the answer already.
         - It did hit the sweet spot. Good progress has been made, and is possibly extendable to other applications.
-    - In VQA, such a dataset doesn’t seem to exist, but GQA could be one!
+    - In VQA, such a dataset doesn’t seem to exist, but GQA could be one.
 - **The grounding question**
     - I’m not a philosopher, but...
-        - The more you think about it, it becomes a very confusing question!
+        - The more you think about it, it becomes a very confusing question.
         - Meaning as denotation. Yes. But...
     - But the problem becomes circular if you start incorporating multi-modal signals!
         - Wittegenstein’s use-based representation could also be grounding. (???)
@@ -1032,7 +1032,7 @@ A cognitive scientist’s view.
             - Learns similar instructions.
     - The other way: Can we use language to help reinforcement learning?
         - [https://arxiv.org/pdf/1708.00133.pdf](https://arxiv.org/pdf/1708.00133.pdf)
-        - Deep RL: huge success in games in general, but they require lots and lots of episodes!
+        - Deep RL: huge success in games in general, but they require lots and lots of episodes.
         - Multiple game scenarios: policy transfer is challenging. Currently, each new game requires learning again from scratch.
         - Why is transfer so hard?
             - States and actions are different. Requires learning mappings (sometimes requires as much as data as those required to learn the policy itself).
@@ -1044,7 +1044,7 @@ A cognitive scientist’s view.
             - Bootstrap learning through text: transfer from one episode (game 1) to another (game 2) in language.
                 - State + Description → Embedding.
                 - Differentiable Value Iteration. Parameter Learning via loss minimization (Bellman).
-            - Ground the semantics of text to *t*he dynamics of the world/environment. NOT to the policy. Can complement other grounding approaches!
+            - Ground the semantics of text to *t*he dynamics of the world/environment. NOT to the policy. Can complement other grounding approaches.
                 - Incorporating the text already helps. Text + the model-based value iteration network works much much better.
         - What does grounding text to dynamics have to do with text-based games?
             - Generally applicable to many environments
@@ -1070,10 +1070,10 @@ A cognitive scientist’s view.
     - **Paying Attention to Function Words**
         - A non-sense-like poem
             - Twas brilliig, and the asdg, ...
-            - Content words are meaningless, BUT the function words aren’t always meaningless!
+            - Content words are meaningless, BUT the function words aren’t always meaningless.
         - Human language evolved to divide the labor between content and function words.
             - Inevitable trivial composition assumption: not enough variablility in *context*.
-            - Context-dependent reference: the same object may be the smaller or the larger one!
+            - Context-dependent reference: the same object may be the smaller or the larger one.
             - Can agents separate the content (shape/color/...) & function (relative/comparative words?)
             - By adding *attention*, one signal captures the objective content, and another captures function (highest/lowest).
     - **Seq2Seq Mimic Words: A Signaling Perspective**
@@ -1085,25 +1085,25 @@ A cognitive scientist’s view.
             - Gray want to buy the blue robot, but cannot see the robot until paid.
             - All agents start tabula rasa.
     - **Bayesian Action Decoder for Deep Multi-Agent RL**
-        - Real-world games that humans find challenging in interpreting (contextually)!
-        - Hanabi: you can see everyone else’s cards, but not yours!
+        - Real-world games that humans find challenging in interpreting (contextually).
+        - Hanabi: you can see everyone else’s cards, but not yours.
             - Public & private features, messaging is costly, cooperative game
             - Bayesian approach: P(hand|action) ~ P(action|hand)P(hand)
             - 10^14 possibilities
         - Results
-            - The Bayesian action decoder performs really well (much better than other LSTM-based methods or hard-coded ones) on real game!
-            - 40% of the information contained in the action itself!
+            - The Bayesian action decoder performs really well (much better than other LSTM-based methods or hard-coded ones) on real game.
+            - 40% of the information contained in the action itself.
             - Some previously unknown strategies have been found.
-        - Releasing “The Hanabi Challenge: A New Frontier for AI Research” for reproducible & challenging environment!
+        - Releasing “The Hanabi Challenge: A New Frontier for AI Research” for reproducible & challenging environment.
     - **Intrinsic social motiviation via causal inference in multi-agent RL**
         - Causal framework
             - Put intrinsic reward for being able to causally infer other agents’ actions.
             - Other agent goals not observed (need counterfactuals!)
             - Test on Sequential Social Dilemma
         - Relates to mutual information between agents’ rewards.
-        - A high-influence agent: only moves when reward (food) exists. This *action* influences other agents!
+        - A high-influence agent: only moves when reward (food) exists. This *action* influences other agents.
         - A communication channel with separate cheap talk (not necessary to use it)
-            - Being influenced (i.e. good listeners) gets you higher reward!
+            - Being influenced (i.e. good listeners) gets you higher reward.
 
 ## Other Concurrent Workshops
 
